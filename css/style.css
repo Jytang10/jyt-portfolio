@@ -227,7 +227,12 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_leftpart_wrap .menu_list_wrap ul li a:hover{color: #E3872D;}
+.arlo_tm_leftpart_wrap .menu_list_wrap ul li a:hover{
+	/* color: #E3872D; */
+	background: linear-gradient(to right, #00b09b, #96c93d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .arlo_tm_leftpart_wrap .menu_list_wrap ul li a:hover:before{width: 35px;}
 .arlo_tm_leftpart_wrap .leftpart_bottom{
 	position: absolute;
@@ -265,7 +270,10 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_leftpart_wrap .leftpart_bottom .social_wrap ul li a:hover{color: #E3872D;}
+.arlo_tm_leftpart_wrap .leftpart_bottom .social_wrap ul li a:hover{
+	/* color: #E3872D; */
+	color: #00b09b;
+}
 .arlo_tm_leftpart_wrap .arlo_tm_resize{
 	position: absolute;
 	right: 0px;
@@ -408,8 +416,8 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/desk.jpg);}
-.arlo_tm_universal_box_wrap .overlay_color.hero{background-color: rgba(7,23,55,.8);}
+.arlo_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/cover.png);}
+.arlo_tm_universal_box_wrap .overlay_color.hero{background-color: rgba(0, 0, 0, 0.8);}
 .arlo_tm_universal_box_wrap .content.hero{height: 100vh;}
 .arlo_tm_hero_header_wrap .inner_content{
 	position: absolute;
@@ -420,7 +428,6 @@ img.svg{
 	text-align: center;
 	width: 100%;
 	padding: 0px 20px;
-	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -468,7 +475,12 @@ img.svg{
 	line-height: 1;
 	font-family: "Montserrat";
 }
-.arlo_tm_about_wrap .arlo_tm_animation_text_word{color: #E3872D;}
+.arlo_tm_about_wrap .arlo_tm_animation_text_word{
+	/* color: #E3872D; */
+	background: linear-gradient(to right, #00b09b, #96c93d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .arlo_tm_arrow_wrap{
 	position: absolute;
 	left: 50%;
@@ -476,9 +488,6 @@ img.svg{
 	transform: translateX(-50%);
 	margin-left: -21px;
 	z-index: 55;
-	background: linear-gradient(to right, #00b09b, #96c93d);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 .arlo_tm_arrow_wrap.bounce {
   -webkit-animation: bounce 2s infinite;
@@ -1192,7 +1201,12 @@ img.svg{
 	     -o-transition: all .1s ease;
 	        transition: all .1s ease;
 }
-.arlo_tm_portfolio_filter li a.current{color: #BD0A0D;}
+.arlo_tm_portfolio_filter li a.current{
+	/* color: #BD0A0D; */
+	background: linear-gradient(to right, #00b09b, #96c93d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 /* PORTFOLIO LIST */
 
@@ -1507,7 +1521,12 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.arlo_tm_news_wrap .date_wrap p a:hover{color: #E3872D;}
+.arlo_tm_news_wrap .date_wrap p a:hover{
+	/* color: #E3872D; */
+	background: linear-gradient(to right, #00b09b, #96c93d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .arlo_tm_news_wrap .date_wrap p a:after{
 	position: absolute;
 	content: "";
@@ -1537,7 +1556,12 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_news_wrap .title_holder h3 a:hover{color: #E3872D;}
+.arlo_tm_news_wrap .title_holder h3 a:hover{
+	/* color: #E3872D; */
+	background: linear-gradient(to right, #00b09b, #96c93d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .arlo_tm_news_wrap .definition{margin-bottom: 26px;}
 .arlo_tm_news_wrap .definition p{color: #333;}
 .arlo_tm_news_wrap .read_more a{
@@ -2184,7 +2208,12 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_portfolio_single_wrap .pagination_wrap a:hover{color: #E3872D;}
+.arlo_tm_portfolio_single_wrap .pagination_wrap a:hover{
+	/* color: #E3872D; */
+	background: linear-gradient(to right, #00b09b, #96c93d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 /*---------------------------------------------------*/
 /*	14) ARLO MOBILE HEADER
@@ -2350,7 +2379,10 @@ img.svg{
 }
 
 .logo {
-	color: #fff;
+	/* color: #fff; */
+	background: linear-gradient(to right, #00b09b, #96c93d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 /*---------------------------------------------------*/
