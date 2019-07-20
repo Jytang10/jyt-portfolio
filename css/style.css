@@ -530,7 +530,7 @@ img.svg{
 	clear: both;
 	float: left;
 	text-align: left;
-	padding-bottom: 100px;
+	padding-bottom: 25px;
 	position: relative;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -1022,7 +1022,8 @@ img.svg{
 .arlo_tm_services_wrap .list_wrap ul li{
 	margin: 0px 0px 30px 0px;
 	float: left;
-	width: 33.3333%;
+	/* width: 33.3333%; */
+	width: 16.666%;
 	padding-left: 30px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -1031,12 +1032,11 @@ img.svg{
 }
 .arlo_tm_services_wrap .list_wrap ul li .inner{
 	width: 100%;
-	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
-	padding: 40px 40px 33px 40px;
+	padding: 8px 8px 6px 8px;
 	top: 0px;
 	
 	-webkit-transition: all .3s ease;
@@ -1052,20 +1052,21 @@ img.svg{
 .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg{
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	/* color: #E3872D; */
-	background: linear-gradient(to right, #00b09b, #96c93d);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 .arlo_tm_services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
 .arlo_tm_services_wrap .list_wrap ul li .title_service h3{
 	font-family: "Montserrat";
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 600;
     color: #000000;
 	line-height: 1;
+}
+
+.inner {
+	text-align: center;
 }
 
 /*---------------------------------------------------*/
@@ -1109,7 +1110,6 @@ img.svg{
 	float: left;
 	position: relative;
 	padding: 90px 15px 93px 15px;
-	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2447,3 +2447,17 @@ img.svg{
 	.arlo_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
 	.arlo_tm_counter_wrap{padding: 94px 0px 48px 0px;}
 }	
+
+/* @media (max-width: 1055px) {
+	.arlo_tm_services_wrap .list_wrap ul li{
+		width: 50%;
+	}
+} */
+
+@media only screen 
+and (min-width: 1055px) 
+and (max-width: 1355px) {
+	.arlo_tm_services_wrap .list_wrap ul li{
+		width: 33.3333%;
+	}
+}
