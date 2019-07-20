@@ -1022,7 +1022,8 @@ img.svg{
 .arlo_tm_services_wrap .list_wrap ul li{
 	margin: 0px 0px 30px 0px;
 	float: left;
-	width: 33.3333%;
+	/* width: 33.3333%; */
+	width: 16.666%;
 	padding-left: 30px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -1031,12 +1032,13 @@ img.svg{
 }
 .arlo_tm_services_wrap .list_wrap ul li .inner{
 	width: 100%;
-	height: auto;
+	/* height: auto; */
 	clear: both;
 	float: left;
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
-	padding: 40px 40px 33px 40px;
+	/* padding: 40px 40px 33px 40px; */
+	padding: 10px 10px 8px 10px;
 	top: 0px;
 	
 	-webkit-transition: all .3s ease;
@@ -1052,17 +1054,20 @@ img.svg{
 .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg{
-	width: 40px;
-	height: 40px;
+	/* width: 65px;
+	height: 65px; */
+	width: 50%;
+	height: 50%;
+	/* height: 100%; */
 	/* color: #E3872D; */
-	background: linear-gradient(to right, #00b09b, #96c93d);
+	/* background: linear-gradient(to right, #00b09b, #96c93d);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 }
 .arlo_tm_services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
 .arlo_tm_services_wrap .list_wrap ul li .title_service h3{
 	font-family: "Montserrat";
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     color: #000000;
 	line-height: 1;
