@@ -12,6 +12,7 @@ jQuery(document).ready(function(){
 	// here all ready functions
 	
 	arlo_tm_hamburger();
+	alro_tm_hamburger_lists();
 	arlo_tm_responsive();
 	arlo_tm_imgtosvg();
 	arlo_tm_magnific_popup();
@@ -89,6 +90,17 @@ function arlo_tm_hamburger(){
 			mobileMenu.slideDown();
 		}
 		return false;
+	});
+}
+
+function alro_tm_hamburger_lists(){
+
+	var mobileMenu		= jQuery('.arlo_tm_mobile_menu_wrap');
+	var mobileMenuLists = jQuery('.mob_menu .anchor_nav li');
+	var element = jQuery('.hamburger--collapse-r');
+	mobileMenuLists.on('click', function(){
+		mobileMenu.slideUp();
+		element.removeClass('is-active');
 	});
 }
 
