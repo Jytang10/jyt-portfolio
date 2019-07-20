@@ -16,6 +16,7 @@
 <title>James Tang Portfolio</title>
 
 <!-- STYLES -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -353,26 +354,20 @@
 								<ul class="arlo_tm_portfolio_list gallery_zoom">
 									<li class="javascript">
 										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="The Peanut Gallery" data-category="JavaScript">
-											<a href="#">
 												<img src="img/portfolio/600x600.jpg" alt="" />
-												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/pg-cover.jpg"></div>
-											</a>
+												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/pg-cover.jpg" data-toggle="modal" data-target="#peanut-modal"></div>
 										</div>
 									</li>
 									<li class="react php">
 										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Record Repo" data-category="React, PHP">
-											<a href="#">
 												<img src="img/portfolio/600x600.jpg" alt="" />
-												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/rr-cover.jpg"></div>
-											</a>
+												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/rr-cover.jpg" data-toggle="modal" data-target="#record-modal"></div>
 										</div>
 									</li>
 									<li class="react php">
 										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Photo Pilgrim" data-category="React, PHP">
-											<a href="#">
 												<img src="img/portfolio/600x600.jpg" alt="" />
-												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/pilgrim.jpg"></div>
-											</a>
+												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/pilgrim.jpg" data-toggle="modal" data-target="#pilgrim-modal"></div>
 										</div>
 									</li>
 								</ul>
@@ -451,8 +446,83 @@
 	</div>
 </div>
 <!-- / WRAPPER ALL -->
+
+<!-- PEANUT GALLERY MODAL -->
+<div class="modal fade" id="peanut-modal" tabindex="-1" role="dialog" aria-labelledby="peanut-modal-title" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="peanut-modal-title">The Peanut Gallery</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="./img/portfolio/pg-video.gif" alt="Peanut Gallery Preview" class="img-fluid mb-2">
+					<p>A Peanuts themed card matching game based on "Memory Match". I used JavaScript and jQuery to render elements dynamically and to program game functionality while using HTML5, CSS3 and Bootstrap 4 for design, display and responsiveness.</p>
+				</div>
+				<div class="modal-footer d-flex justify-content-around">
+					<button class="btn btn-outline-secondary"><a href="https://github.com/Jytang10/peanut-gallery" target="__blank">GitHub</a></button>
+					<button class="btn btn-outline-secondary"><a href="https://peanut-gallery.jamestang.dev/" target="__blank">Live</a></button>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /PEANUT GALLERY MODAL -->
+
+<!-- RECORD REPO MODAL -->
+<div class="modal fade" id="record-modal" tabindex="-1" role="dialog" aria-labelledby="record-modal-title" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="record-modal-title">Record Repo</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="./img/portfolio/rr-video.gif" alt="Record Repo Preview" class="img-fluid mb-2">
+					<p>An online vinyl sales shopping cart application. Users can view, add, update and delete items from their shopping cart before placing their final order. ReactJS, JavaScript and JSX were used to design the front end portion of the application while the full LAMP stack was utilized (MySQL database called using PHP scripts) to handle the application's data.  </p>
+				</div>
+				<div class="modal-footer d-flex justify-content-around">
+					<button class="btn btn-outline-secondary"><a href="https://github.com/Jytang10/record-repo" target="__blank">GitHub</a></button>
+					<button class="btn btn-outline-secondary"><a href="https://record-repo.jamestang.dev/" target="__blank">Live</a></button>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /RECORD REPO MODAL -->
+
+<!-- PHOTO PILGRIM MODAL -->
+<div class="modal fade" id="pilgrim-modal" tabindex="-1" role="dialog" aria-labelledby="pilgrim-modal-title" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="pilgrim-modal-title">Photo Pilgrim</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="./img/portfolio/pilgrim.jpg" alt="Photo Pilgrim Preview" class="img-fluid mb-2">
+					<p>A final capstone team project where I had the roles of Team Lead & Front End Lead. Photo Pilgrim is a photo sharing and discovery social media application. I primarily utilized ReactJS, JavaScript and JSX in order to create the majority of the components, and later added React Routing. </p>
+				</div>
+				<div class="modal-footer d-flex justify-content-around">
+					<button class="btn btn-outline-secondary"><a href="https://github.com/Learning-Fuze/c319_photo_pilgrim" target="__blank">GitHub</a></button>
+					<button class="btn btn-outline-secondary"><a href="http://www.photo-pilgrim.com/" target="__blank">Live</a></button>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /PHOTO PILGRIM MODAL -->
 	
 <!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="js/jquery.js"></script>
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="js/plugins.js"></script>
