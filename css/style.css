@@ -27,6 +27,13 @@
 /*	01) ARLO BASE
 /*---------------------------------------------------*/
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html {
 	overflow-x: hidden;
 	padding: 0px;
@@ -1267,6 +1274,21 @@ img.svg{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 2px 2px 2px #111;  
+}
+
+.arlo_tm_portfolio_image_main img{
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.arlo_tm_portfolio_image_main:hover {
+	width: 105%;
+  height:105%;
 }
 
 /*---------------------------------------------------*/
