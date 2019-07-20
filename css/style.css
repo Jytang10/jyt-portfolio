@@ -1906,6 +1906,41 @@ img.svg{
 .arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
 	outline: none;
 }
+#sendMessageButton{
+	cursor: pointer;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.arlo_tm_contact_wrap .arlo_tm_button button{
+	text-decoration: none;
+    color: #fff;
+		background: linear-gradient(to right, #00b09b, #96c93d);
+    font-weight: 600;
+    font-family: "Montserrat";
+    padding: 12px 35px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.arlo_tm_contact_wrap .arlo_tm_button button:before{
+	position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #07080A;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.arlo_tm_contact_wrap .arlo_tm_button button:hover:before{width: 170%;}
+.arlo_tm_contact_wrap .arlo_tm_button button span{
+	position: relative;
+	z-index: 2;
+}
 .arlo_tm_contact_wrap .arlo_tm_button a{
 	text-decoration: none;
     color: #fff;
@@ -1975,7 +2010,37 @@ img.svg{
 	font-weight: 600;
     position: relative;
 }
+.form-group input{
+	margin-bottom: 20px;
+}
 
+.alert-danger {
+	color: red;
+	text-decoration: none;
+    /* color: white;
+    background-color: rgb(231, 161, 95);
+    border-color: rgb(231, 161, 95); */
+}
+
+.close-error-message-button{
+	color: red;
+	cursor: pointer;
+	padding: 5px 5px;
+	line-height: 2;
+	border: none;
+	font-size: 1rem;
+	padding-right: 10px;
+}
+
+.close-success-message-button{
+	color: red;
+	cursor: pointer;
+	padding: 5px 5px;
+	line-height: 2;
+	border: none;
+	font-size: 1rem;
+	padding-right: 10px;
+}
 /*---------------------------------------------------*/
 /*	10) EDREA TO TOP
 /*---------------------------------------------------*/
