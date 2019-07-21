@@ -35,7 +35,7 @@
 }
 
 html {
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	padding: 0px;
 	margin: 0px
 }
@@ -1042,7 +1042,7 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
-	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	/* box-shadow: 0 0 20px rgba(0,0,0,.1); */
 	padding: 8px 8px 6px 8px;
 	top: 0px;
 	
@@ -1056,7 +1056,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
+/* .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;} */
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg{
 	width: 50px;
@@ -1976,7 +1976,7 @@ img.svg{
     border-radius: 3px;
     display: inline-block;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .arlo_tm_contact_wrap .arlo_tm_button a:before{
 	position: absolute;
@@ -2465,8 +2465,11 @@ img.svg{
 	font-size: 19px;
 }
 
+.logo-first{
+	color:#fff;
+}
+
 .logo {
-	/* color: #fff; */
 	background: linear-gradient(to right, #00b09b, #96c93d);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -2511,7 +2514,7 @@ img.svg{
 	.arlo_tm_title_holder h3{font-size: 45px;}
 	.arlo_tm_title_holder:before{top: -2px;}
 	.arlo_tm_services_wrap .list_wrap ul{margin: 0px;}
-	.arlo_tm_services_wrap .list_wrap ul li{width: 100%;padding-left: 0px;}
+	.arlo_tm_services_wrap .list_wrap ul li{width: 50%;padding-left: 0px;}
 	.arlo_tm_counter_list li{width: 50%;}
 	.arlo_tm_counter_list li .inner{padding: 45px 15px 48px 15px;}
 	.arlo_tm_portfolio_list > li{width: 50%;}
@@ -2547,4 +2550,126 @@ and (max-width: 1355px) {
 	.arlo_tm_services_wrap .list_wrap ul li{
 		width: 33.3333%;
 	}
+}
+
+@media only screen and (orientation: portrait) {
+	.arlo_tm_portfolio_image_main:hover {
+		width: 100%;
+		height:100%;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+		.arlo_tm_portfolio_image_main:hover {
+			width: 100%;
+			height:100%;
+		}
+}
+
+.modal { 
+	position: fixed; 
+	top: 3%; 
+	right: 3%; 
+	left: 3%; 
+	width: auto; 
+	margin: 0; 
+}
+.modal-body { 
+	height: 60%; 
+}
+
+.modal-body { 
+	max-height: 500px; 
+	padding: 15px; 
+	overflow-y: auto; 
+	-webkit-overflow-scrolling: touch; 
 }
