@@ -2674,7 +2674,7 @@ and (max-width: 1355px) {
 }
 
 .modal-body { 
-	max-height: 450px; 
+	max-height: 400px; 
 	padding: 15px; 
 	overflow-y: auto; 
 	-webkit-overflow-scrolling: touch; 
