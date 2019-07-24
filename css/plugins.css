@@ -139,7 +139,7 @@ pre code { white-space: pre-wrap; }
 
 textarea{
 	border-radius:0;
-	font-size:13px;
+	font-size:13px !important;
 	color:#333;
 	resize:vertical;
 	font-family:"Open Sans";
