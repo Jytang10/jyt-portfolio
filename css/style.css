@@ -1817,6 +1817,10 @@ img.svg{
 /*	09) ARLO CONTACT
 /*---------------------------------------------------*/
 
+.form-control:focus {
+	box-shadow: 0px !important;
+}
+
 .arlo_tm_contact_wrap_all{
 	width: 100%;
 	height: auto;
@@ -1915,9 +1919,9 @@ img.svg{
 	color: #333;
 	padding-left: 0px !important;
 }
-.arlo_tm_contact_wrap .main_input_wrap .wrap input:focus{
+/* .arlo_tm_contact_wrap .main_input_wrap .wrap input:focus{
 	outline: none;
-}
+} */
 .arlo_tm_contact_wrap .main_input_wrap .wrap textarea{
 	width: 100%;
 	height: 80px;
@@ -1928,9 +1932,9 @@ img.svg{
 	color: #333;
 	padding-left: 0px !important;
 }
-.arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
+/* .arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
 	outline: none;
-}
+} */
 #sendMessageButton{
 	cursor: pointer;
 	font-size: 15px;
