@@ -2690,3 +2690,7 @@ and (max-width: 1355px) {
 .close-mail-server-error {
 	padding-left: 5px;
 }
+
+.project-links a {
+	color: white !important;
+}
