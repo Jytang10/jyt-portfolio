@@ -1292,6 +1292,7 @@ img.svg{
 .arlo_tm_portfolio_image_main:hover {
 	width: 105%;
   height:105%;
+	cursor: pointer;
 }
 
 /*---------------------------------------------------*/
@@ -2054,11 +2055,12 @@ img.svg{
 .close-error-message-button{
 	color: red;
 	cursor: pointer;
-	padding: 5px 5px;
-	line-height: 2;
+	/* padding: 5px 5px; */
+	/* line-height: 2; */
 	border: none;
 	font-size: 1rem;
-	padding-right: 10px;
+	/* padding-right: 10px; */
+	font-weight: bold;
 }
 
 .close-success-message-button{
@@ -2683,4 +2685,8 @@ and (max-width: 1355px) {
 	padding: 15px; 
 	overflow-y: auto; 
 	-webkit-overflow-scrolling: touch; 
+}
+
+.close-mail-server-error {
+	padding-left: 5px;
 }
