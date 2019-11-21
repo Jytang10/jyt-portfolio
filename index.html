@@ -211,7 +211,9 @@
 									<li><a href="#" class="current" data-filter="*">All</a></li>
 									<li><a href="#" data-filter=".javascript">JavaScript</a></li>
 									<li><a href="#" data-filter=".react">React</a></li>
+									<li><a href="#" data-filter=".react-native">React Native</a></li>
 									<li><a href="#" data-filter=".php">PHP</a></li>
+									<li><a href="#" data-filter=".firebase">Firebase</a></li>
 								</ul>
 								<ul class="arlo_tm_portfolio_list gallery_zoom">
 									<li class="javascript">
@@ -226,10 +228,10 @@
 												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/rr-cover.jpg" data-toggle="modal" data-target="#record-modal"></div>
 										</div>
 									</li>
-									<li class="react php">
-										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Photo Pilgrim" data-category="React, PHP">
+									<li class="react react-native firebase">
+										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Local Pick" data-category="React Native, Firebase">
 												<img src="img/portfolio/600x600.jpg" alt="" />
-												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/pilgrim.jpg" data-toggle="modal" data-target="#pilgrim-modal"></div>
+												<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/lp.jpeg" data-toggle="modal" data-target="#local-modal"></div>
 										</div>
 									</li>
 								</ul>
@@ -578,31 +580,31 @@
 	</div>
 <!-- /RECORD REPO MODAL -->
 
-<!-- PHOTO PILGRIM MODAL -->
-<div class="modal fade" id="pilgrim-modal" tabindex="-1" role="dialog" aria-labelledby="pilgrim-modal-title" aria-hidden="true">
+<!-- LOCAL PICK MODAL -->
+<div class="modal fade" id="local-modal" tabindex="-1" role="dialog" aria-labelledby="local-modal-title" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="pilgrim-modal-title">Photo Pilgrim (Under Construction)</h5>
+					<h5 class="modal-title" id="local-modal-title">Local Pick</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
 					<div class="text-center">
-						<img src="./img/portfolio/pilgrim.jpg" alt="Photo Pilgrim Preview" class="img-fluid mb-2">
+						<img style="height: 400px" src="./img/portfolio/lp-demo.gif" alt="Local Pick Preview" class="img-fluid mb-2">
 					</div>
-					<p>A final capstone team project where I had the roles of Team Lead & Front End Lead. Photo Pilgrim is a photo sharing and discovery social media application. I primarily utilized ReactJS, JavaScript and JSX in order to create the majority of the components, and later added React Routing. The project is still under construction as user functionality and responsiveness are currently being worked on.</p>
+					<p>A local restaurant sharing social platform mobile application. Built using React Native & Redux for the mobile front-end, I used the Google Places API to search for local restaurants. The information was then stored in a Google Firebase database. I also used Firebase Cloud Firestore for user creation and auth. </p>
 				</div>
 				<div class="modal-footer project-links d-flex justify-content-around">
-					<button class="btn btn-success"><a href="http://www.photo-pilgrim.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
-					<button class="btn btn-dark"><a href="https://github.com/Learning-Fuze/c319_photo_pilgrim" target="_blank" rel="noopener noreferrer">GitHub</a></button>
+					<button class="btn btn-success"><a href="https://github.com/Jytang10/local-pick" target="_blank" rel="noopener noreferrer">Demo</a></button>
+					<button class="btn btn-dark"><a href="https://github.com/Jytang10/local-pick" target="_blank" rel="noopener noreferrer">GitHub</a></button>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-<!-- /PHOTO PILGRIM MODAL -->
+<!-- /LOCAL PICK MODAL -->
 	
 <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
